@@ -1,0 +1,22 @@
+Please organise your files in folders with 'Assignment (number)' as the name.
+
+---------------------------------------------------
+Well done on Q1 Q2 Q5 Q6 Q8 Q9
+
+---------------------------------------------------
+Q3 and Q4 by wrapping the input in int you are preventing the user from entering a decimal as a number
+
+---------------------------------------------------
+Q7 by wrapping the input in int if the user enters a bill with a decimal the code will give an error
+
+---------------------------------------------------
+Q8 for the print statement you can just use commas print("In", days," days there are", hours, "hours", minutes," minutes",seconds,"seconds")
+
+---------------------------------------------------
+Activities in the book
+Well done on Q6 Q8 Q9 Q10 Q11
+
+---------------------------------------------------
+Q7 by wrapping the input in int the user cant enter a decimal grade.
+
+---------------------------------------------------
