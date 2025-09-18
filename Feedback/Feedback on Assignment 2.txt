@@ -1,0 +1,9 @@
+Please seperate your files into a folder with the assignment number as the name also add the Q number so it is easier to 
+navigate for corrections and for when you are looking back yourself. 
+
+-------------------------------------
+Well done on Q1 Q2 Q3 Q6 Q7 Q8 Q9
+
+-------------------------------------
+Q4 and Q5 Good idea using .lower but the quesion asks for it to work when the user inputs yes Yes or YES, this is for 
+practicing using or in if statements.
