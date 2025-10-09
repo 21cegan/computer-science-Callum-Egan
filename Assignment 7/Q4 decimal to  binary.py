@@ -14,4 +14,8 @@ while decimal != 0:
     if remainder == 1:
         decimal -= 1
     decimal /= 2
-print(binary)
+binarystr = ""
+for x in binary:
+    binarystr += str(x)
+print(binarystr)
+
