@@ -9,4 +9,8 @@ letter = input("Enter a character: " )
 if len(letter) > 1:
     print("only one letter")
 else:
-    print(f"The letter {letter} appears {word.count(letter)} time(s) in the string '{word}'")
+
+    for x in word:
+        if x == letter:
+            count += 1
+    print(f"The letter {letter} appears {count} time(s) in the string '{word}'")
