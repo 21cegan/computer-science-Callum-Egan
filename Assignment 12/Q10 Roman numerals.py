@@ -20,7 +20,7 @@ roman = ""
 
 roman += "M"*thousands
 if hundreds == 9:
-    roman = "MC" + roman
+    roman += "CM"
 elif hundreds == 4:
     roman += "CD"
 elif 9 > hundreds >= 5:
