@@ -12,9 +12,15 @@ M = 1000.
 """
 number = input("Enter a number: ")
 
-thousands = int(number[-4])
-hundreds = int(number[-3])
-tens = int(number[-2])
+if len(number) >= 4:
+    thousands = int(number[-4])
+else: thousands = 0
+if len(number) >= 3:
+    hundreds = int(number[-3])
+else: hundreds = 0
+if len(number) >= 2:
+    tens = int(number[-2])
+else: tens = 0
 ones = int(number[-1])
 roman = ""
 
@@ -47,3 +53,4 @@ else:
     roman += "I"*ones
 
 print(roman)
+
