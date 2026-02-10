@@ -74,14 +74,14 @@ while True:
         print(" ".join(guessedWord))
         guess = input("Guess any letter: ").upper()
         if len(guess) == 1:
-            if guess in wordlist:
-                if guess in mistakes or guess in guessedWord:
-                    print("You already guessed this character")
-                else:
-                    for i in range(len(wordlist)):
-                        if wordlist[i] == guess:
-                            guessedWord.pop(i)
-                            guessedWord.insert(i,guess)
+            if guess in mistakes or guess in guessedWord:
+                print("You already guessed this character")
+            elif guess in wordlist:
+                
+                for i in range(len(wordlist)):
+                    if wordlist[i] == guess:
+                        guessedWord.pop(i)
+                        guessedWord.insert(i,guess)
             else:
                 mistakes += guess
                 lives += 1
@@ -97,4 +97,5 @@ while True:
         
     if input("Would you like to play again?(y/n): ") == "n":
         break
+
     
