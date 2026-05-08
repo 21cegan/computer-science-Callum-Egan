@@ -1,0 +1,14 @@
+# Question 16(a)
+# Name and School: Callum Egan
+
+books = []
+num = int(input("How many books have you read?"))
+
+for x in range(num):
+    book = input("Enter the title of the book you've read: ")
+    books.append(book)
+if len(books) >= 3:
+    print(f"Fantastic! You've read {len(books)} books - keep reading!")
+print("Book(s) read:")
+for i in books:
+    print(i)
