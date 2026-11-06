@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <label for="user_name">User Name:</label>
+        <input id = "user_name" name="user_name">
+        <button onclick= 'update_user_name_btn()'>Click me</button>
+        <p>User name entered: <span id='user_name_place_holder'> ----</span> 
+        </p>
+        <textarea id="user_dataset_1" name="user_dataset_1" rows="5" cols="32" placeholder ="Enter your data here..."></textarea>
+        <p>Mean of numbers in textarea: <span id='user_dataset_mean_placeholder'> ----</span> </p>
+        <p>Median of numbers in textarea: <span id='user_dataset_median_placeholder'> ----</span> </p>
+        <p>Mode of numbers in textarea: <span id='user_dataset_mode_placeholder'> ----</span> </p>
+        <p>range of numbers in textarea: <span id='user_dataset_range_placeholder'> ----</span> </p>
+        <button onclick= 'calculate_btn()'>Calculate average</button>  
+        <script>let username = {{list1 | tojson}};</script>
+        <script src="./static/filename.js" type="text/javascript"></script>
+    </body>
+</html>
